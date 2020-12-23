@@ -12,9 +12,9 @@ spring:
           filters: stat
           driver-class-name: com.mysql.jdbc.Driver
           #基本属性
-          url: jdbc:mysql://127.0.0.1:3306/lu_tale?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
-          username: root
-          password: mac123
+          url: jdbc:mysql://47.94.4.93:3306/db_my_site?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+          username: mysql
+          password: mysql
           #配置初始化大小/最小/最大
           initial-size: 1
           min-idle: 1
@@ -44,8 +44,8 @@ spring:
       proxy-target-class: true
     servlet:
           multipart:
-            max-file-size: 10Mb
-            max-request-size: 100Mb
+            max-file-size: 10
+            max-request-size: 100
 
 
 mybatis:
